@@ -11,7 +11,9 @@ function checkerBoard() {
 			div.style.paddingBottom = "11.1%";
 			div.style.float = "left";
 			// when even number: red, odd number : black
-			div.style.backgroundColor = (j+i) % 2 ? "red" : "black";
+			//div.style.backgroundColor = (j+i) % 2 ? "red" : "black";
+			//random color
+			div.style.backgroundColor = Math.floor(Math.random()*256).toString(16);
 			mainDiv.appendChild(div);
 		}
 		var clearDiv = document.createElement("div");
