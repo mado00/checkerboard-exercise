@@ -33,7 +33,7 @@ function checkerBoard() {
 
 //checkerBoard();
 
-//flashing is not working
+
 function flashing() {
 	randInterval = window.setInterval(checkerBoard, 2000);
 }
